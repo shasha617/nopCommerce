@@ -21,7 +21,7 @@ jobs:
       uses: SonarSource/sonarcloud-github-action@v3
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      with:
+      with: 
           args: >
             -Dsonar.organization=shasha617
             -Dsonar.projectKey=shasha617_nopCommerce
